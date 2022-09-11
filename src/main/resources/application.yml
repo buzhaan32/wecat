@@ -1,0 +1,26 @@
+server:
+  port: 10012
+wechat:
+  #  微信公众平台的appID
+  appId: 'wx7912bff65b284494'
+  #  微信公众平台的appSecret
+  secret: '7163450fbf78f0a630fe8d4bf87a3e97'
+  #  纪念日：注意格式yyyy-MM-dd
+  loveDate: '2021-08-29'
+  #  生日：注意格式yyyy-MM-dd （无论是计算阳历生日还是农历生日,一律填阳历出生年月日）
+  birthday: ''
+  #  模板ID
+  templateId: 'oz2r8eHHw_PJ5fk6XjNhIzut2YYLHG9hynT60NO7gvM'
+  #  天行数据apiKey
+  rainbowKey: 'e723f975ff4137ef016658d6e9ac7764'
+  #  关注公众号的用户ID（要推送的人的用户ID,在微信公众平台里可以查看到,现在支持推送多个人）
+  userId:
+    - ''
+    - ''
+  #    是否按农历计算生日 true:是 false:否
+  useLunar: true
+#@author wangxinqi 22/9/6
+  #和风天气AK
+  QAK: '28d782a2a0c84be5a789bc336c44f924'
+  #和风天气API中的城市locid
+  QLocId: '500100'
